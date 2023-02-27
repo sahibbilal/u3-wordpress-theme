@@ -1,0 +1,416 @@
+/* 
+ Theme Name: U3 Project
+ Theme URI:
+ Version: 1.0
+ Author: CreateGo
+ Author URI: www.poster-8.com
+ Description: Wordpress Theme
+*/
+.quantity,
+.max_pro_price del,
+.woocommerce-tabs,
+.product_meta,
+.woocommerce-breadcrumb{
+    display: none;
+}
+.woocommerce-product-gallery{
+    opacity: 1 !important;
+}
+body{
+    background-color: inherit !important;
+}
+
+.max_single_product span.onsale{
+    width: 100px;
+    height: 100px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    background: green;
+    color: white;
+    border-radius: 50%;
+    top: 0;
+    display: none;
+    left: 0;
+}
+
+.single_add_to_wishlist, .delete_item{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-weight: 100 !important;
+    font-family: "Helvetica Thin Cond Thin" !important;
+    text-transform: uppercase;
+    color: #fff;
+    /*height: 53px;*/
+    padding-right: 15px !important;
+    font-size: 1.6rem !important;
+    font-weight: bold !important;
+    letter-spacing: 2px;
+    color: #d8c48d !important;
+    background-color: #000000 !important;
+    margin-bottom: 10px;
+}
+.view-wishlist{
+    color: #d8c48d !important;
+}
+.max_3u_contact_artist{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    font-size: 1.6rem !important;
+    font-weight: 100 !important;
+    font-family: "Helvetica Thin Cond thin" !important;
+    color: #fff !important;
+    letter-spacing: 2px;
+  /*  height: 53px;*/
+    margin-bottom: 10px !important;
+    text-transform: uppercase;
+    background-color: #000000 !important;
+}
+.single_add_to_wishlist > i, .delete_item > i{
+    float: right;
+}
+.yith-wcwl-add-button > .separator{
+    display: none !important;
+}
+.yith-wcwl-add-button{
+    max-width: 380px;
+}   
+.yith-wcwl-add-button > .view-wishlist{
+    font-size: 100%;
+    margin: 0;
+    line-height: 1;
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    overflow: visible;
+    padding: 0.6181em;
+    font-weight: 700;
+    border-radius: 3px;
+    left: auto;
+    margin-top: 10px;
+    background: black;
+    color: white;
+    border: 0;
+    display: inline-block;
+    background-image: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.yith-wcwl-add-button span{
+    padding-left: 20px;
+}
+.max_pro_images,
+.max_summary{
+    float: left;
+}
+.max_pro_images{
+    width: 57%;
+}
+.max_pro_images > .woocommerce-product-gallery{
+    width: 100% !important;
+}
+@media only screen and (min-width: 1024px){
+    .max_summary{
+        width: 40% !important;
+        margin-top: 40px;
+        margin-right: 10px;
+    }
+}
+
+.woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(5n) {
+    margin-right: 0 !important;
+}
+.woocommerce div.product div.images .flex-control-thumbs {
+    margin-top: 20px;
+}
+
+.max_pro_images ol > li {    margin: 0px 2.5% 10px 0px !important;}
+.woocommerce div.product div.images .flex-control-thumbs li {    width: 18% !important;}
+.woocommerce div.product .woocommerce-product-gallery--columns-4 .flex-control-thumbs li:nth-child(4n+1) {     clear: none;}
+
+.woocommerce-product-gallery__wrapper img{
+    object-fit: cover;
+    height: 100% !important;
+}
+
+.max_single_product{
+    /*max-width: 1366px;*/
+    width: 100%;
+}
+.max_clear{
+    clear: both;
+}
+.woocommerce-product-gallery__wrapper div:not(:first-child){
+    width: 100px;
+    float: left;
+    /*margin: 60px 10px 10px 0;*/
+}
+.max_summary .product_title{
+    font-size: 2rem;
+    font-family: "Helvetica Thin Cond";
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.max_summary .woocommerce-product-details__short-description > p, .max_u3_short_desc_footer{
+    font-size: 1.2rem;
+    font-family: Times New Roman;
+    text-align: left;
+}
+.woocommerce div.product form.cart .reset_variations{
+    color: black;
+    text-decoration: none;
+    font-family: 'Helvetica Thin Cond Thin';
+    font-weight: 600;
+    font-size: 1.2rem !important;
+    letter-spacing: 2px;
+}
+.max_summary .woocommerce-product-details__short-description{
+    margin-bottom: 20px;
+    max-width: 360px;
+}
+.max_author{
+    font-size: 1.5rem;
+    font-family: "Helvetica Thin Cond";
+    text-align: left;
+    font-style: italic;
+    margin-bottom: 15px;
+    padding-top: 5px;
+}
+.max_pro_price .amount bdi{
+    display: flex;
+    align-items: center;
+}
+.max_pro_price ins{
+    text-decoration: none;
+}
+.max_price_cart_btn{
+    display: inline-flex;
+    align-content: center;
+    border: 2px solid black;
+    width: auto !important;
+}
+.max_pro_price{
+    font-size: 1.6rem !important;
+    display: inline-block;
+    color: #000000 !important;
+    line-height: 48px;
+    font-family: 'Helvetica Thin';
+    font-weight: bold;
+    max-width: 100px;
+    overflow: auto;
+}
+.max_price_cart_btn button{
+    font-size: 20px;
+    background: black;
+    border: 0px;
+    color: white;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+form.cart{
+    text-align: left;
+}
+.max_add_to_wishlist{
+    display: inline-flex;
+    font-size: 20px;
+    background: black;
+    color: #ecc6c6;
+    padding: 10px 20px;
+}
+.max_add_to_wishlist svg{
+    width: 25px;
+    fill: #ecc6c6;
+}
+#main{
+    display: flex;
+    align-content: center;
+}
+
+
+/*Code by ham*/
+.yith-wcwl-add-to-wishlist{
+    margin-top: 0px !important;
+}
+.max_3_single_pro_price_btn{
+    max-width: 380px;
+    display: flex;
+    margin-bottom: 10px;
+}
+.max_3_pro_price{
+    width: 35%;
+    border: 2px solid black;
+    border-right: none;
+    height: 51px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+.max_3_pro_add_to_cart_btn > .max_3u_add_to_cart_btn{
+    padding: 10px !important;
+    width: 100%;
+    background-color: #000000 !important;
+    border-radius: unset !important;
+}
+.max_3u_add_to_cart_btn > p{
+    color: #fff;
+    font-size: 1.6rem;
+    display: inline-block;
+    font-family: "Helvetica Thin Cond Thin";
+    font-weight: 100;
+    padding-left: 10px;
+    letter-spacing: 3px;
+    padding-top: 6px;
+}
+.max_3_pro_add_to_cart_btn{
+    width: 65%;
+    height: auto;
+}
+.max_pro_option1, .max_pro_option3{
+    font-size: 1rem;
+    font-family: "Helvetica Thin Cond";
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.max_3u_short_desc_p_tag{
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-family: "Helvetica";
+}
+.max_3u_add_to_wishlist{
+    width: 86%;
+}
+.max_3u_add_to_wishlist_btn{
+    width: 83%;
+    height: 40px;
+    background-color: #000000 !important;
+}
+.max_3u_add_to_wishlist_btn > p{
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 100;
+    font-family: "Helvetica Thin Cond";
+    color: #d4bd7e;
+}
+.max_3_heart_shape{
+    float: right;
+    margin-top: 2px;
+    font-size: 1.3rem;
+    color: #d4bd7e;
+}
+.max_summary > .in-stock{
+    display: none;
+}
+.max_3u_copy_left , .max_3u_copy_left_two{
+    font-size: 1.3rem;
+    font-family: "Helvetica Thin Cond Thin";
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 7px;
+    letter-spacing: 1px;
+}
+.max_3u_copy_left_two{
+    display: none;
+}
+.max_3u_pro_stock, .max_3u_pro_stock_div{
+    margin-right: 0px;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.max_3u_pro_stock_div{
+    margin-right: 5px;
+}
+.max_3u_stock_left, .max_3u_stock_left_p_tag{
+    width: 30px;
+    display: inline-block !important;
+    height: 50px;
+    line-height: 47px;
+    color: #fff;
+    text-align: center;
+    background: black;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Helvetica Thin Cond';
+}
+
+.related{
+    display: none;
+}
+
+input[name="quantity"] {
+  display: none;
+}
+.variations > tbody > tr > td.label {
+    display: none;
+}
+
+.woocommerce-variation-availability{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.reset_variations{
+    margin-left: 20px;
+    display: none;
+}
+
+.max_summary select option{
+    font-size: 1.2rem;
+    font-family: "Helvetica Thin Cond";
+}
+
+@import url('http://fonts.cdnfonts.com/css/times-new-roman');
+
+.max_3u_single_product_long_description{
+    max-width: 1366px;
+    padding: 20px;
+    height: auto;
+    margin-top: 50px;
+    overflow: auto;
+}
+.woocommerce div.product form.cart{
+    margin-bottom: 0px !important;
+}
+
+.max_3u_info{
+    margin-bottom: 10px; 
+    font-family: 'Open Sans'; 
+    font-size: 1.875rem;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+}
+
+.max_3u_single_product_long_description > p{
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 1.25rem;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    max-width: 100%;
+}
+.max_3u_single_product_long_description > img{
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+
+.max_3u_return_policy, .max_3u_return_service{
+    color: black;
+    font-size: 0.9rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: 'Helvetica Thin Cond';
+}
+
+.max_3u_show_variation p:nth-child(even){
+    margin-bottom: 20px !important;
+}
